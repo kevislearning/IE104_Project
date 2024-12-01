@@ -11,9 +11,8 @@
 ## Framework, Thư viện: 
 - Bootstrap 5
 - Jquery
-## Lưu ý: 
-- Hình ảnh trong mỗi trang được bỏ vào một thư mục được đặt trong thư mục ```images```.
-- Tương tự với css, mỗi trang một file css riêng được đặt trong thư mục ```stylesheets```.
-- Script sẽ được viết trên một file chung tên ```script.js```
+## Bố trí thư mục và file: 
+- Mỗi trang sẽ nằm trong một folder riêng.
+
 
 
