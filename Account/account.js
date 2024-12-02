@@ -1,13 +1,7 @@
-$(document).ready(function () {
-    // Example of dynamically updating user information
-    const user = {
-        name: "John Doe",
-        email: "john.doe@example.com",
-        password: "********",
-        subscriptionTime: "1 Year",
-        services: ["IoT Monitoring", "AI Analytics", "Smart Irrigation"]
-    };
 
+import{user} from '../user.js';
+
+$(document).ready(function () {
     $('#userName').text(user.name);
     $('#userEmail').text(user.email);
     $('#userPassword').text(user.password);
