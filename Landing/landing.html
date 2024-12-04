@@ -165,7 +165,7 @@
   </div>
 
   <!-- QUẢNG CÁO -->
-  <div class="container my-5">
+  <div class="container-fluid bg-dark-subtle p-3 my-5">
     <div class="row">
       <div class="col-md-4 align-self-center">
         <img src="./images/NextX.jpg"
@@ -185,12 +185,50 @@
     </div>
   </div>
 
+  <!-- ĐỐI TÁC -->
+  <div class="container my-5 text-center">
+    <h3>ĐỐI TÁC CỦA CHÚNG TÔI</h3>
+    <div id="partnerCarousel"
+      class="carousel slide "
+      data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/doitac-1.jpg"
+            height="250"
+            class="d-block w-100"
+            alt="Partner 1">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/doitac-2.jpg"
+            height="250"
+            class="d-block w-100"
+            alt="Partner 2">
+        </div>
+        <!-- Add more carousel items as needed -->
+      </div>
+      <button class="carousel-control-prev"
+        type="button"
+        data-bs-target="#partnerCarousel"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-secondary"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next"
+        type="button"
+        data-bs-target="#partnerCarousel"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-secondary"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
 
   <!-- FOOTER -->
   <footer class="container-fluid text-center bg-dark text-white py-4">
     <div class="row align-items-center">
       <div class="col-4">
-        <h5 class="text-warning"><img src="./images/Landing_page/logo.svg"
+        <h5 class="text-warning"><img src="../logo.svg"
             alt=""
             class="pe-2">TechFarm</h5>
         <p class="fw-semibold">Giải pháp nông nghiệp hiện đại</p>
