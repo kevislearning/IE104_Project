@@ -10,3 +10,7 @@
   width: 1000px;
   margin: auto;
 }
+
+.card-footer{
+  background-color: green;
+}
