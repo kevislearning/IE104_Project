@@ -1,0 +1,167 @@
+.heading h1{
+    text-align: center;
+    color:#73bf78;
+    font-size: 80px;
+} 
+
+.heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+hr {
+    width: 300px;
+    height: 3px;
+    background-color: black;
+}
+
+
+.blog-grid .blog-img .date {
+    position: absolute;
+    background: #3a3973;
+    color: #ffffff;
+    padding: 8px 15px;
+    left: 0;
+    top: 10px;
+    font-size: 14px;
+}
+
+.blog-img img {
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.blog-grid .blog-img {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.blog-info {
+    background-color: #feff9f;
+    width: 100%;
+    height: 340px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.blog-grid a {
+    color: black;
+    text-decoration: none;
+}
+
+.blog-grid a:hover {
+    text-decoration: underline;
+    color: #079813;
+}
+
+.tintuc {
+    padding-top: 10px;
+}
+
+.blog-info2 {
+    width: auto;
+}
+
+.pagination {
+    border-radius: 0;
+    padding: 0;
+    margin: 0
+}
+
+.pagination ul {
+    display: inline-block;
+    display: inline;
+    zoom: 1;
+    margin: 0 auto;
+    padding: 0
+}
+
+.pagination li {
+    display: inline
+}
+
+.pagination a {
+    float: left;
+    padding: 0 18px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 1px solid #dbdbdb;
+    border-left-width: 0;
+    background: #fff
+}
+
+.pagination a:hover {
+    background-color: green;
+    color: #fff
+}
+
+.pagination .active a {
+    background-color: #f7f7f7;
+    color: #999;
+    cursor: default
+}
+
+.pagination .disabled span {
+    color: #999;
+    background-color: transparent;
+    cursor: default
+}
+
+.pagination .disabled a {
+    color: #999;
+    background-color: transparent;
+    cursor: default
+}
+
+.pagination .disabled a:hover {
+    color: #999;
+    background-color: transparent;
+    cursor: default
+}
+
+.pagination li:first-child a {
+    border-left-width: 1px
+}
+
+.mt-6, .my-6 {
+    margin-top: 3.5rem;
+}
+
+.contact {
+    align-items: center;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(47,193,12);
+    background: linear-gradient(218deg, rgba(47,193,12,1) 0%, rgba(169,224,119,0.4934567577030813) 100%);
+}
+
+.contact-text {
+    align-items: center;
+}
+
+.contact-text h2 {
+    font-size: 60px;
+    color: black;
+}
+
+.contact-text p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contact form {
+    padding: 5px;
+}
+
+.contact form button {
+    margin-top: 10px;
+    background-color: green;
+}
+
+.contact form button:hover {
+    background-color: #73bf78;
+}
