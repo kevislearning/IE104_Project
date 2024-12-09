@@ -1,0 +1,196 @@
+h1 {
+    color:#73bf78;
+    text-align: center;
+    font-size: 80px;
+}
+
+.cover-img {
+    background-image: url(images/khu-cong-nghe-cao-an-thai-nhin-tu-tren-cao..jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 300px;
+}
+
+.title p {
+    text-align: center;
+    font-size: 23px;
+    color: black;
+}
+
+.box-text {
+    display:flexbox;
+    position: relative;
+    left: 25%;
+    top:10%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid;
+    border-radius: 10px;
+    width:fit-content;
+    padding: 20px;
+}
+
+.aboutus {
+    background:  rgba(211,238,152,0.1993391106442577);
+}
+
+.nd p {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nd {
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.nd img {
+    width: 80%;
+    height: 80%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about-item {
+    background-color: #d3ee98;
+    padding: 80px,30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 90%;
+    box-shadow: 0 0 9px rgba(0,0,0,0.6);
+}
+
+.about-item i {
+    font-size: 27px;
+    margin: 0;
+}
+
+.about-item h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.about-item hr {
+    width: 46px;
+    height: 3px;
+    background-color: black;
+    margin: 0 auto;
+    border: none;
+}
+
+.about-item p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.about-item:hover {
+    background-color: #feff9f;
+}
+
+.about-item i {
+    transition: all 400ms ease-in-out;
+}
+
+.about-item:hover {
+    transform: translateY(-10px);
+}
+
+.doingu {
+    margin-top: 30px;
+}
+
+.doingu hr {
+    width: 100px;
+    height: 3px;
+    background-color: black;
+}
+
+.our-team{
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 10px 40px -10px rgba(0,64,128,.2);
+}
+.our-team img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.our-team:hover img{
+    right: 60%;
+}
+.our-team .team-content{
+    width: 80%;
+    height: 100%;
+    background: #fcfcfc;
+    padding: 20% 30px 0;
+    position: absolute;
+    top: 0;
+    right: -80%;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+.our-team:hover .team-content{
+    right: 0;
+}
+.our-team .title {
+	font-size: 22px;
+	color: #554c86;
+	margin: 0 0 5px 0;
+	font-weight: 500;
+}
+.our-team .post {
+	display: block;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.our-team .description{
+    font-size: 14px;
+    color: #191b26;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.our-team .social li:last-child{
+    margin-right: 0;
+}
+.our-team .social li a {
+	display: block;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	border: 1px solid #eee;
+}
+.our-team .social li a:hover{ color: #fff; }
+.our-team .social li a.bi-facebook{ background: #3b5a9b;border: 1px solid #3b5a9b; }
+.our-team .social li a.bi-twitter{ background: #2baae1;border: 1px solid #2baae1; }
+.our-team .social li a.bi-youtube{ background: #c3181e;border: 1px solid #c3181e; }
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 50px; }
+}
+@media only screen and (max-width: 360px){
+    .team-content{ padding: 15% 15px 0; }
+    .our-team .social li{ margin-right: 0; }
+}
