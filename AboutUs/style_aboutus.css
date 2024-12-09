@@ -9,7 +9,7 @@ h1 {
     background-size:cover;
     background-repeat: no-repeat;
     max-width: 100%;
-    height: 300px;
+    height: 200px;
 }
 
 .title p {
@@ -19,19 +19,11 @@ h1 {
 }
 
 .box-text {
-    display:flexbox;
-    position: relative;
-    left: 25%;
-    top:10%;
     background-color: rgba(255, 255, 255, 0.6);
     border: 1px solid;
     border-radius: 10px;
-    width:fit-content;
-    padding: 20px;
-}
-
-.aboutus {
-    background:  rgba(211,238,152,0.1993391106442577);
+    height: 200px;
+    padding-top: 10px;
 }
 
 .nd p {
