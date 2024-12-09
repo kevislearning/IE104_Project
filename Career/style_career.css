@@ -1,0 +1,72 @@
+h1 {
+    color:#73bf78;
+    text-align: center;
+    font-size: 80px;
+}
+
+body {
+    background:  rgba(211,238,152,0.1993391106442577);
+}
+
+.cover-img {
+    background-image: url(images/khu-cong-nghe-cao-an-thai-nhin-tu-tren-cao..jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 200px;
+}
+
+.box-text {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.title p {
+    text-align: center;
+    font-size: 23px;
+    color: black;
+}
+
+.gioithieu img {
+    width: 400px;
+    height: 250px;
+}
+
+.vanhoacty {
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.vanhoacty img {
+    margin-top: 10px;
+    width: 400px;
+    height: 250px;
+}
+
+.vanhoacty p {
+    margin-top: 10px;
+}
+
+.job h3 {
+    font-size: 35px;
+}
+
+.job button {
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+}
+
+.job button:hover {
+    background-color: green;
+    box-shadow: 0 4px 8px 0 black, 0 3px 10px 0 black;
+}
+
+.card-header {
+    background-color: #feff9f;
+}
