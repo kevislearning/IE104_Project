@@ -4,10 +4,6 @@ h1 {
     font-size: 80px;
 }
 
-body {
-    background:  rgba(211,238,152,0.1993391106442577);
-}
-
 .cover-img {
     background-image: url(images/khu-cong-nghe-cao-an-thai-nhin-tu-tren-cao..jpg);
     background-size:cover;
@@ -58,6 +54,7 @@ h2 {
 
 .job button {
     margin-top: 20px;
+    margin-bottom: 20px;
     cursor: pointer;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
 }
