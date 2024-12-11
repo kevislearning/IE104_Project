@@ -1,24 +1,29 @@
-.hero{
-  background-image: url(./images/hero_img.png);
-  background-position: center;
-  background-size: cover;
+.hero {
+	background-image: url(./images/hero_img.png);
+	background-position: center;
+	background-size: cover;
 }
 
-
-.form-doitac{
-  background-color: rgb(10, 60, 0);
-  width: 1000px;
-  margin: auto;
+.form-doitac {
+	background-color: rgb(10, 60, 0);
 }
 
-.doitac-section{
-  background-image: linear-gradient(white, #FEFF9F);
+.doitac-section {
+	background-image: linear-gradient(white, #feff9f);
 }
 
-.card-footer{
-  background-color: green;
+.card-footer {
+	background-color: green;
 }
 
-h3{
-  color: #72BF78;
+h3 {
+	color: #72bf78;
+}
+
+.card:hover {
+	transform: scale(1.05);
+}
+
+.card-giaiphap{
+  background-color: #f8f9f4;
 }
