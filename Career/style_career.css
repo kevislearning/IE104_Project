@@ -67,3 +67,7 @@ h2 {
 .card-header {
     background-color: #feff9f;
 }
+
+.inp {
+    float: right;
+}
