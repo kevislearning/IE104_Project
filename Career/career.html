@@ -269,8 +269,39 @@
                           </div>
                     </div>
                 </div>
+                
                 <div class="d-grid col-2 mx-auto">
-                    <button type="button" class="btn btn-success btn-lg">Ứng tuyển</button>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ungtuyen">Ứng Tuyển</button>               
+                </div>
+                <div class="modal fade" id="ungtuyen" tabindex="-1" aria-labelledby="ungtuyenlabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="model-header">
+                        <h3 id="ungtuyenlabel">Ứng tuyển</h3>
+                        <button  type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>                      </div>
+                      <div class="modal-body">
+                        <div class="form">
+                          <label for="name">Họ tên</label>
+                          <input type="text" name="name" id="name">
+                          <label for="phone">Số điện thoại</label>
+                          <input type="tel" name="phone" id="phone">
+                          <label for="mail">Email</label>
+                          <input type="email" name="mail" id="mail">
+                          <label for="congviec">Chọn vị trí ứng tuyển</label>
+                          <select id="congviec">
+                            <option value="kysuctm">Kỹ Sư Chế Tạo Máy</option>
+                            <option value="kysunn">Kỹ Sư Nông Nghiệp</option>
+                            <option value="nvkd">Nhân Viên Kinh Doanh</option>
+                          </select>
+                          <label for="cv">Upload CV</label>
+                          <input type="file" id="cv" name="cv">
+                        </div>
+                      <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Gửi</button>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
