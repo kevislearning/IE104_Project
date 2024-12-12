@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 		if (email === user.email && password === user.password) {
 			localStorage.setItem("user", JSON.stringify(user));
-			localStorage.setItem("avatar", "../user-avatar.png"); // Update with the actual path to the user's avatar
+			localStorage.setItem("avatar", "../user-avatar.png");
 
 			window.location.href = "../Landing/landing.html";
 		} else {
