@@ -11,3 +11,7 @@ body {
 .form-signup .form-floating:focus-within {
     z-index: 2;
 }
+
+.form-box{
+    background-image: linear-gradient(to bottom, white, bisque);
+}

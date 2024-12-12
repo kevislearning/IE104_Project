@@ -23,4 +23,8 @@ body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+
+  .form-box{
+    background-image: linear-gradient(to bottom, white, bisque);
+  }
   
