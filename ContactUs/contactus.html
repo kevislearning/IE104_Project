@@ -32,15 +32,14 @@
 <body>
   <!-- HEADER -->
   <header>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-3">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-4">
       <div class="container-fluid">
-        <a href="#"
+        <a href="../landing.html"
           class="navbar-brand ms-2 fw-bold text-warning">
           <img src="../logo.svg"
             alt="">
           TechFarm
         </a>
-
         <button type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbar-Nav"
@@ -52,49 +51,56 @@
           id="navbar-Nav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
-              <a href="#"
-                class="nav-link active">
-                Home
+              <a href="../landing.html"
+                class="nav-link active fs-6 me-3">
+                Trang chủ
               </a>
             </li>
             <li class="nav-item active">
-              <a href="#"
-                class="nav-link">
-                About us
+              <a href="../News/news.html"
+                class="nav-link fs-6 me-3">
+                Tin tức
               </a>
             </li>
             <li class="nav-item active">
-              <a href="#"
-                class="nav-link">
-                Product
+              <a href="../AboutUs/aboutus.html"
+                class="nav-link fs-6 me-3">
+                Về chúng tôi
               </a>
             </li>
             <li class="nav-item active">
-              <a href="#"
-                class="nav-link">
-                Price
+              <a href="../Product/product.html"
+                class="nav-link fs-6 me-3">
+                Sản phẩm
               </a>
             </li>
             <li class="nav-item active">
-              <a href="#"
-                class="nav-link">
-                Contact us
+              <a href="../Price/price.html"
+                class="nav-link fs-6 me-3">
+                Giá
               </a>
             </li>
             <li class="nav-item active">
-              <a href="#"
-                class="nav-link">
-                Career
+              <a href="../ContactUs/contactus.html"
+                class="nav-link fs-6 me-3">
+                Liên hệ
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a href="../Career/career.html"
+                class="nav-link fs-6 me-3">
+                Việc làm
               </a>
             </li>
           </ul>
-          <div class="text-end">
+          <div class="text-end"
+            id="auth-buttons">
             <a type="button"
               href="../Login/login.html"
-              class="btn btn-success btn-info me-1">Login</a>
+              class="btn btn-warning btn-info me-1 fw-semibold">Đăng nhập</a>
             <a type="button"
               href="../Register/register.html"
-              class="btn btn-warning btn-info">Sign-up</a>
+              class="btn btn-warning btn-info fw-semibold">Đăng ký</a>
           </div>
         </div>
       </div>
@@ -172,63 +178,72 @@
     </div>
   </div>
 
-  <footer class="container-fluid text-center bg-dark text-white py-4">
-    <div class="row align-items-center">
-      <div class="col-4">
-        <h5 class="text-warning"><img src="../logo.svg"
-            alt=""
-            class="pe-2">TechFarm</h5>
-        <p class="fw-semibold">Giải pháp nông nghiệp hiện đại</p>
-      </div>
-
-      <div class="col-4">
-        <p><i class="bi bi-geo-alt"></i> <span class="fw-bold">Địa chỉ:</span> Đường Hàn Thuyên, khu phố 6 P, Thủ Đức,
-          Hồ Chí Minh </p>
-        <p><i class="bi bi-telephone"></i><span class="fw-bold"> SĐT:</span> 0888450986</p>
-        <p><i class="bi bi-envelope"></i> <span class="fw-bold">Email:</span> 22521157@gm.uit.edu.vn </p>
-      </div>
-
-      <div class="col-4">
-        <h5 class="text-warning">Về chúng tôi:</h5>
-        <div class="row ms-5">
-          <div class="col-6 text-md-start">
-            <p>
-              <a href=""
-                class="text-decoration-none text-white">Home</a>
-            </p>
-            <p>
-              <a href=""
-                class="text-decoration-none text-white">About us</a>
-            </p>
-            <p>
-              <a href=""
-                class="text-decoration-none text-white">Product</a>
-            </p>
-            <p>
-              <a href=""
-                class="text-decoration-none text-white">Price</a>
-            </p>
-          </div>
-          <div class="col-6 text-md-start">
-            <p>
-              <a href=""
-                class="text-decoration-none text-white">Contact us</a>
-            </p>
-            <p>
-              <a href=""
-                class="text-decoration-none text-white">News</a>
-            </p>
-            <p>
-              <a href=""
-                class="text-decoration-none text-white">Career</a>
-            </p>
-            <p>
-          </div>
+ <!-- FOOTER -->
+  <footer>
+    <div class="container-fluid bg-dark text-white py-4">
+      <div class="row">
+        <div class="col-md-4 align-content-center text-center">
+          <h5 class="text-warning"><img src="../logo.svg"
+              alt=""
+              class="me-1">TechFarm</h5>
+          <p class="fw-semibold text-warning text-uppercase">Giải pháp nông nghiệp hiện đại</p>
         </div>
-        <p><a href=""
-            class="text-decoration-none text-white">Điều khoản dịch vụ</a></p>
-        <p><a href=""
-            class="text-decoration-none text-white">Chính sách bảo mật</a></p>
+
+        <div class="col-md-4 text-md-start align-content-center">
+          <p><i class="bi bi-geo-alt"></i> <span class="fw-bold">Địa chỉ:</span> Đường Hàn Thuyên, khu phố 6, Thủ Đức,
+            Hồ Chí Minh </p>
+          <p><i class="bi bi-telephone"></i><span class="fw-bold"> SĐT:</span> 0888450986</p>
+          <p><i class="bi bi-envelope"></i> <span class="fw-bold">Email:</span> 22521157@gm.uit.edu.vn </p>
+        </div>
+
+        <div class="col-md-2 mt-2">
+          <h5 class="text-warning text-uppercase">Liên kết</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="../Landing/landing.html"
+                class="text-decoration-none text-white">Trang chủ</a>
+            </li>
+            <li>
+              <a href="../AboutUs/aboutus.html"
+                class="text-decoration-none text-white">Về chúng tôi</a>
+            </li>
+            <li>
+              <a href="../Product/product.html"
+                class="text-decoration-none text-white">Sản phẩm</a>
+            </li>
+            <li>
+              <a href="../Price/price.html"
+                class="text-decoration-none text-white">Giá</a>
+            </li>
+            <li>
+              <a href="../ContactUs/contactus.html"
+                class="text-decoration-none text-white ">Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <br>
+          <br>
+          <ul class="list-unstyled">
+            <li>
+              <a href="../News/news.html"
+                class="text-decoration-none text-white">Tin tức</a>
+            </li>
+            <li>
+              <a href="../Career/career.html"
+                class="text-decoration-none text-white">Việc làm</a>
+            </li>
+            <li>
+              <a href=""
+                class="text-decoration-none text-white">Điều khoản dịch vụ</a>
+            </li>
+            <li>
+              <a href=""
+                class="text-decoration-none text-white">Chính sách bảo mật</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>

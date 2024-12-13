@@ -1,83 +1,68 @@
-.heading h1{
-    text-align: center;
-    color:#73bf78;
-    font-size: 80px;
-} 
-
 h2 {
-    font-size: 60px;
+	font-size: 60px;
 }
 
-.heading {
-    padding-bottom: 20px;
+h1 {
+	text-align: center;
+	color: #73bf78;
 }
 
-.cover-img {
-    background-image: url(image/khu-cong-nghe-cao-an-thai-nhin-tu-tren-cao..jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto;
-}
-
-.title p {
-    text-align: center;
-    font-size: 23px;
-    color: black;
+.hero {
+	background-image: url(./image/khu-cong-nghe-cao-an-thai-nhin-tu-tren-cao..jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .box-text {
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.6);
-    border: 1px solid;
-    border-radius: 10px;
-    height: 170px;
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 100%;
+	height: 100%;
 }
 
 .product-card {
-    background-color: #72BF78;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin-bottom: 2rem;
-    width: auto;
+	background-color: #72bf78;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	margin-bottom: 2rem;
+	width: auto;
 }
 
 .product-card img {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 .product-card .card-body {
-    padding: 1.5rem;
+	padding: 1.5rem;
 }
 
 .product-card h5 {
-    font-size: 1.25rem;
-    font-weight: bold;
+	font-size: 1.25rem;
+	font-weight: bold;
 }
 
 .product-card p {
-    margin: 1rem 0;
+	margin: 1rem 0;
 }
 
 .product-card .price {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #000000;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #000000;
 }
 
 .product-card .btn {
-    background-color: #ffc107;
-    color: #ffffff;
-    border: none;
+	background-color: #ffc107;
+	color: #ffffff;
+	border: none;
 }
 
 .product-card .btn:hover {
-    background-color: #ff9800;
+	background-color: #ff9800;
 }
 
 .dichvu img {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }

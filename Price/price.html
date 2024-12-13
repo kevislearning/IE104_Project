@@ -1,189 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Purchase Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style_price.css">
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-3">
-            <div class="container-fluid">
-                <a href="#"
-                    class="navbar-brand ms-2 fw-bold text-warning">
-                    <img src="../logo.svg" alt="">
-                    TechFarm
-                </a>
-    
-                <div class="collapse navbar-collapse" id="navbar-Nav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active"><a href="#" class="nav-link active">Home</a></li>
-                        <li class="nav-item active"><a href="#" class="nav-link">About us</a></li>
-                        <li class="nav-item active"><a href="#" class="nav-link">Product</a></li>
-                        <li class="nav-item active"><a href="#" class="nav-link">Price</a></li>
-                        <li class="nav-item active"><a href="#" class="nav-link">Contact us</a></li>
-                        <li class="nav-item active"><a href="#" class="nav-link">Career</a></li>
-                    </ul>
-                    <div class="text-end">
-                        <a type="button" href="../Login/login.html" class="btn btn-success btn-info me-1">Login</a>
-                        <a type="button" href="../Register/register.html" class="btn btn-warning btn-info">Sign-up</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
 
-    <!-- Main Content -->
-    <div class="title text-center container-fluid p-0 hero">
-        <div class="box-text p-4">
-          <h1 class=" display-2 fw-semibold">THAM KHẢO DỊCH VỤ CỦA CHÚNG TÔI</h1>
-          <p class="fs-4">Liên hệ ngay để nhận được thông tin chi tiết, mẫu thử và hợp tác doanh nghiệp</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <title>Purchase Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="style_price.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-4">
+      <div class="container-fluid">
+        <a href="../landing.html"
+          class="navbar-brand ms-2 fw-bold text-warning">
+          <img src="../logo.svg"
+            alt="">
+          TechFarm
+        </a>
+        <button type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-Nav"
+          class="navbar-toggler">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse"
+          id="navbar-Nav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a href="../Landing/landing.html"
+                class="nav-link active fs-6 me-3">
+                Trang chủ
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a href="../News/news.html"
+                class="nav-link fs-6 me-3">
+                Tin tức
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a href="../AboutUs/aboutus.html"
+                class="nav-link fs-6 me-3">
+                Về chúng tôi
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a href="../Product/product.html"
+                class="nav-link fs-6 me-3">
+                Sản phẩm
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a href="../Price/price.html"
+                class="nav-link fs-6 me-3">
+                Giá
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a href="../ContactUs/contactus.html"
+                class="nav-link fs-6 me-3">
+                Liên hệ
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a href="../Career/career.html"
+                class="nav-link fs-6 me-3">
+                Việc làm
+              </a>
+            </li>
+          </ul>
+          <div class="text-end"
+            id="auth-buttons">
+            <a type="button"
+              href="../Login/login.html"
+              class="btn btn-warning btn-info me-1 fw-semibold">Đăng nhập</a>
+            <a type="button"
+              href="../Register/register.html"
+              class="btn btn-warning btn-info fw-semibold">Đăng ký</a>
+          </div>
         </div>
       </div>
-    <div class="pricing-section">
-        <div class="container">
-            <h2>Dịch Vụ</h2>
-            <hr>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card p-4">
-                        <h5 class="card-title text-center">TraceGREEN</h5>
-                        <p class="text-center">Dịch vụ truy vết nguồn gốc sản phẩm</p>
-                        <p>Bao gồm:</p>
-                        <ul>
-                            <li>Hệ thống quản lí nguồn gốc</li>
-                            <li>Hệ thống quét mã QR</li>
-                            <li>Tích hợp thiết bị iOT</li>
-                            <li>Hệ thống cảnh báo</li>
-                            <li>Tích hợp các nền tảng thương mại điện tử</li>
-                            <li>Hỗ trợ xây dựng cộng đồng người tiêu dùng</li>
-                        </ul>
-                        <h5>3800$/năm</h5>
-                        <button class="btn w-100">Đăng ký ngay</button>
-                    </div>
-                </div>
+    </nav>
+  </header>
 
-                <div class="col-md-4">
-                    <div class="card p-4">
-                        <h5 class="card-title text-center">iOT-GREEN</h5>
-                        <p class="text-center">Quản lí hệ thống iOT cho nông nghiệp</p>
-                        <p>Bao gồm:</p>
-                        <ul>
-                            <li>Hệ thống tưới nước thông minh</li>
-                            <li>Hệ thống kiểm tra độ ẩm, độ màu mỡ của đất</li>
-                            <li>Hệ thống AI tự động</li>
-                            <li>Hệ thống cảnh báo</li>
-                            <li>Phân tích và dự đoán kết quả mùa màng</li>
-                            <li>Bảo mật dữ liệu cao</li>
-                        </ul>
-                        <h5>5000$/năm</h5>
-                        <button class="btn w-100">Đăng ký ngay</button>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card p-4">
-                        <h5 class="card-title text-center">BrainGREEN</h5>
-                        <p class="text-center">Hệ thống AI dự báo năng suất và thị trường</p>
-                        <p>Bao gồm:</p>
-                        <ul>
-                            <li>Hệ thống phân tích thị trường</li>
-                            <li>Hệ thống dự đoán năng suất và giá cả</li>
-                            <li>Báo cáo định kì được gửi về mail</li>
-                            <li>Hệ thống cảnh báo</li>
-                            <li>Khả năng tích hợp cùng hệ thống iOT-GREEN</li>
-                            <li>Bảo mật dữ liệu cao</li>
-                        </ul>                        
-                        <h5>1000$/năm</h5>
-                        <button class="btn w-100">Đăng ký ngay</button>
-                    </div>
-                </div>
-            </div>
-            <h2 style="margin-top: 50px;">Sản phẩm</h2>
-            <hr>
-            <div class="sanpham">
-                <div class="row">
-                    <div class="content col-md-4">
-                        <h3>SẢN PHẨM CÔNG NGHỆ</h3>
-                        <p>Công ty chúng tôi tự hào giới thiệu những giải pháp công nghệ nông nghiệp tiên tiến, giúp nông dân tăng năng suất và chất lượng sản phẩm. Hệ thống tưới tiêu IoT, robot thông minh và drone tưới cây của chúng tôi hoạt động hoàn toàn tự động, dựa trên dữ liệu thu thập từ cảm biến. Nhờ đó, việc canh tác trở nên chính xác, hiệu quả và tiết kiệm nguồn lực hơn bao giờ hết.</p>
-                        <p>Liên hệ riêng chúng tôi để hợp tác với số lượng lớn</p>
-                        <button type="button" class="btn btn-success">Liên hệ</button>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="row justify-content-center">
-                            <div class="sp col-md-5">
-                                <h4>Robot nông nghiệp</h4>
-                                <p>Bao gồm: phí vận chuyển, lắp ráp, bảo hành 2 năm, miễn phí bảo trì định trì</p>
-                                <h5>Giá lẻ: 450$/con</h5>
-                                <h5>Số lượng lớn: Liên hệ</h5>
-                                <button type="button" class="btn btn-success">Mua ngay</button>
-                            </div>
-                            <div class="sp col-md-5">
-                                <h4>Hệ thống tưới tiêu</h4>
-                                <p>Bao gồm: 10 đầu tưới, phí vận chuyển, lắp ráp, bảo hành 2 năm, miễn phí bảo trì định trì</p>
-                                <h5>Giá lẻ: 100$/hệ thống</h5>
-                                <h5>Số lượng lớn: Liên hệ</h5>
-                                <button type="button" class="btn btn-success">Mua ngay</button>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="sp col-md-5">
-                                <h4>Drone-GREEN</h4>
-                                <p>Bao gồm: phí vận chuyển, lắp ráp, bảo hành 2 năm, miễn phí bảo trì định trì</p>
-                                <h5>Giá lẻ: 200$/con</h5>
-                                <h5>Số lượng lớn: Liên hệ</h5>
-                                <button type="button" class="btn btn-success">Mua ngay</button>
-                            </div>
-                            <div class="sp col-md-5">
-                                <h4>Hệ thống quản lí đất</h4>
-                                <p>Bao gồm: 10 sensor, phí vận chuyển, lắp ráp, bảo hành 2 năm, miễn phí bảo trì định trì</p>
-                                <h5>Giá lẻ: 50$/hệ thống</h5>
-                                <h5>Số lượng lớn: Liên hệ</h5>
-                                <button type="button" class="btn btn-success">Mua ngay</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <!-- Main Content -->
+  <div class="title text-center container-fluid p-0 hero">
+    <div class="box-text p-4">
+      <h1 class=" display-2 fw-semibold">THAM KHẢO DỊCH VỤ CHÚNG TÔI</h1>
+      <p class="fs-4">Liên hệ ngay để nhận được thông tin chi tiết, mẫu thử và hợp tác doanh nghiệp</p>
     </div>
-
-    <!-- Footer -->
-    <footer class="container-fluid text-center bg-dark text-white py-4">
-        <div class="row align-items-center">
-            <div class="col-4">
-                <h5 class="text-warning"><img src="../logo.svg" alt="" class="pe-2">TechFarm</h5>
-                <p class="fw-semibold">Giải pháp nông nghiệp hiện đại</p>
-            </div>
-            <div class="col-4">
-                <p><i class="bi bi-geo-alt"></i> <span class="fw-bold">Địa chỉ:</span> Đường Hàn Thuyên, khu phố 6 P, Thủ Đức, Hồ Chí Minh</p>
-                <p><i class="bi bi-telephone"></i> <span class="fw-bold">SĐT:</span> 0888450986</p>
-                <p><i class="bi bi-envelope"></i> <span class="fw-bold">Email:</span> 22521157@gm.uit.edu.vn</p>
-            </div>
-            <div class="col-4">
-                <h5 class="text-warning">Về chúng tôi:</h5>
-                <div class="row ms-5">
-                    <div class="col-6 text-md-start">
-                        <p><a href="" class="text-decoration-none text-white">Home</a></p>
-                        <p><a href="" class="text-decoration-none text-white">About us</a></p>
-                        <p><a href="" class="text-decoration-none text-white">Product</a></p>
-                        <p><a href="" class="text-decoration-none text-white">Price</a></p>
-                    </div>
-                    <div class="col-6 text-md-start">
-                        <p><a href="" class="text-decoration-none text-white">Contact us</a></p>
-                        <p><a href="" class="text-decoration-none text-white">News</a></p>
-                        <p><a href="" class="text-decoration-none text-white">Career</a></p>
-                    </div>
-                </div>
-                <p><a href="" class="text-decoration-none text-white">Điều khoản dịch vụ</a></p>
-                <p><a href="" class="text-decoration-none text-white">Chính sách bảo mật</a></p>
-            </div>
+  </div>
+  <div class="pricing-section">
+    <div class="container">
+      <h2>Dịch Vụ</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card p-4" id="tracegreen">
+            <h5 class="card-title text-center">TraceGREEN</h5>
+            <p class="text-center">Dịch vụ truy vết nguồn gốc sản phẩm</p>
+            <p>Bao gồm:</p>
+            <ul>
+              <li>Hệ thống quản lí nguồn gốc</li>
+              <li>Hệ thống quét mã QR</li>
+              <li>Tích hợp thiết bị iOT</li>
+              <li>Hệ thống cảnh báo</li>
+              <li>Tích hợp các nền tảng thương mại điện tử</li>
+              <li>Hỗ trợ xây dựng cộng đồng người tiêu dùng</li>
+            </ul>
+            <h5>3800$/năm</h5>
+            <button class="btn w-100">Đăng ký ngay</button>
+          </div>
         </div>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="col-md-4" id="iotgreen">
+          <div class="card p-4">
+            <h5 class="card-title text-center">iOT-GREEN</h5>
+            <p class="text-center">Quản lí hệ thống iOT cho nông nghiệp</p>
+            <p>Bao gồm:</p>
+            <ul>
+              <li>Hệ thống tưới nước thông minh</li>
+              <li>Hệ thống kiểm tra độ ẩm, độ màu mỡ của đất</li>
+              <li>Hệ thống AI tự động</li>
+              <li>Hệ thống cảnh báo</li>
+              <li>Phân tích và dự đoán kết quả mùa màng</li>
+              <li>Bảo mật dữ liệu cao</li>
+            </ul>
+            <h5>5000$/năm</h5>
+            <button class="btn w-100">Đăng ký ngay</button>
+          </div>
+        </div>
+
+        <div class="col-md-4" id="braingreen">
+          <div class="card p-4">
+            <h5 class="card-title text-center">BrainGREEN</h5>
+            <p class="text-center">Hệ thống AI dự báo năng suất và thị trường</p>
+            <p>Bao gồm:</p>
+            <ul>
+              <li>Hệ thống phân tích thị trường</li>
+              <li>Hệ thống dự đoán năng suất và giá cả</li>
+              <li>Báo cáo định kì được gửi về mail</li>
+              <li>Hệ thống cảnh báo</li>
+              <li>Khả năng tích hợp cùng hệ thống iOT-GREEN</li>
+              <li>Bảo mật dữ liệu cao</li>
+            </ul>
+            <h5>1000$/năm</h5>
+            <button class="btn w-100">Đăng ký ngay</button>
+          </div>
+        </div>
+      </div>
+      <h2 style="margin-top: 50px;">Sản phẩm</h2>
+      <hr>
+      <div class="sanpham">
+        <div class="row">
+          <div class="content col-md-4">
+            <h3>SẢN PHẨM CÔNG NGHỆ</h3>
+            <p>Công ty chúng tôi tự hào giới thiệu những giải pháp công nghệ nông nghiệp tiên tiến, giúp nông dân tăng
+              năng suất và chất lượng sản phẩm. Hệ thống tưới tiêu IoT, robot thông minh và drone tưới cây của chúng tôi
+              hoạt động hoàn toàn tự động, dựa trên dữ liệu thu thập từ cảm biến. Nhờ đó, việc canh tác trở nên chính
+              xác, hiệu quả và tiết kiệm nguồn lực hơn bao giờ hết.</p>
+            <p>Liên hệ riêng chúng tôi để hợp tác với số lượng lớn</p>
+            <button type="button"
+              class="btn btn-success">Liên hệ</button>
+          </div>
+          <div class="col-md-8">
+            <div class="row justify-content-center">
+              <div class="sp col-md-5"
+                id="robotnongnghiep">
+                <h4>Robot nông nghiệp</h4>
+                <p>Bao gồm: phí vận chuyển, lắp ráp, bảo hành 2 năm, miễn phí bảo trì định trì</p>
+                <h5>Giá lẻ: 450$/con</h5>
+                <h5>Số lượng lớn: Liên hệ</h5>
+                <button type="button"
+                  class="btn btn-success">Mua ngay</button>
+              </div>
+              <div class="sp col-md-5" id="hethongtuoitieu">
+                <h4>Hệ thống tưới tiêu</h4>
+                <p>Bao gồm: 10 đầu tưới, phí vận chuyển, lắp ráp, bảo hành 2 năm, miễn phí bảo trì định trì</p>
+                <h5>Giá lẻ: 100$/hệ thống</h5>
+                <h5>Số lượng lớn: Liên hệ</h5>
+                <button type="button"
+                  class="btn btn-success">Mua ngay</button>
+              </div>
+            </div>
+            <div class="row justify-content-center" id="dronegreen">
+              <div class="sp col-md-5">
+                <h4>Drone-GREEN</h4>
+                <p>Bao gồm: phí vận chuyển, lắp ráp, bảo hành 2 năm, miễn phí bảo trì định trì</p>
+                <h5>Giá lẻ: 200$/con</h5>
+                <h5>Số lượng lớn: Liên hệ</h5>
+                <button type="button"
+                  class="btn btn-success">Mua ngay</button>
+              </div>
+              <div class="sp col-md-5" id="quanlydat">
+                <h4>Hệ thống quản lí đất</h4>
+                <p>Bao gồm: 10 sensor, phí vận chuyển, lắp ráp, bảo hành 2 năm, miễn phí bảo trì định trì</p>
+                <h5>Giá lẻ: 50$/hệ thống</h5>
+                <h5>Số lượng lớn: Liên hệ</h5>
+                <button type="button"
+                  class="btn btn-success">Mua ngay</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container-fluid bg-dark text-white py-4">
+      <div class="row">
+        <div class="col-md-4 align-content-center text-center">
+          <h5 class="text-warning"><img src="../logo.svg"
+              alt=""
+              class="me-1">TechFarm</h5>
+          <p class="fw-semibold text-warning text-uppercase">Giải pháp nông nghiệp hiện đại</p>
+        </div>
+
+        <div class="col-md-4 text-md-start align-content-center">
+          <p><i class="bi bi-geo-alt"></i> <span class="fw-bold">Địa chỉ:</span> Đường Hàn Thuyên, khu phố 6, Thủ Đức,
+            Hồ Chí Minh </p>
+          <p><i class="bi bi-telephone"></i><span class="fw-bold"> SĐT:</span> 0888450986</p>
+          <p><i class="bi bi-envelope"></i> <span class="fw-bold">Email:</span> 22521157@gm.uit.edu.vn </p>
+        </div>
+
+        <div class="col-md-2 mt-2">
+          <h5 class="text-warning text-uppercase">Liên kết</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="../Landing/landing.html"
+                class="text-decoration-none text-white">Trang chủ</a>
+            </li>
+            <li>
+              <a href="../AboutUs/aboutus.html"
+                class="text-decoration-none text-white">Về chúng tôi</a>
+            </li>
+            <li>
+              <a href="../Product/product.html"
+                class="text-decoration-none text-white">Sản phẩm</a>
+            </li>
+            <li>
+              <a href="../Price/price.html"
+                class="text-decoration-none text-white">Giá</a>
+            </li>
+            <li>
+              <a href="../ContactUs/contactus.html"
+                class="text-decoration-none text-white ">Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <br>
+          <br>
+          <ul class="list-unstyled">
+            <li>
+              <a href="../News/news.html"
+                class="text-decoration-none text-white">Tin tức</a>
+            </li>
+            <li>
+              <a href="../Career/career.html"
+                class="text-decoration-none text-white">Việc làm</a>
+            </li>
+            <li>
+              <a href=""
+                class="text-decoration-none text-white">Điều khoản dịch vụ</a>
+            </li>
+            <li>
+              <a href=""
+                class="text-decoration-none text-white">Chính sách bảo mật</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
