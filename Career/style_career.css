@@ -1,28 +1,19 @@
-h1 {
-    color:#73bf78;
+h1{
     text-align: center;
-    font-size: 80px;
-}
+    color:#73bf78;
+} 
 
-.cover-img {
+.hero {
     background-image: url(images/khu-cong-nghe-cao-an-thai-nhin-tu-tren-cao..jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    max-width: 100%;
-    height: 200px;
+    
 }
 
-.box-text {
+.box-text{
     background-color: rgba(255, 255, 255, 0.6);
-    border: 1px solid;
-    border-radius: 10px;
-    height: 200px;
-}
-
-.title p {
-    text-align: center;
-    font-size: 23px;
-    color: black;
+    width: 100%;
+    height: 100%;
 }
 
 .gioithieu img {
@@ -40,8 +31,8 @@ h2 {
 
 .vanhoacty img {
     margin-top: 10px;
-    width: 400px;
-    height: 250px;
+    max-width: 100%;
+    height: auto;
 }
 
 .vanhoacty p {
