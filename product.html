@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Mục Sản Phẩm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style_product.css">
+</head>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-3">
+            <div class="container-fluid">
+                <a href="#"
+                    class="navbar-brand ms-2 fw-bold text-warning">
+                    <img src="../logo.svg" alt="">
+                    TechFarm
+                </a>
+    
+                <button type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbar-Nav"
+                    class="navbar-toggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbar-Nav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active"><a href="#" class="nav-link active">Home</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">About us</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">Product</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">Price</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">Contact us</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">Career</a></li>
+                    </ul>
+                    <div class="text-end">
+                        <a type="button" href="../Login/login.html" class="btn btn-success btn-info me-1">Login</a>
+                        <a type="button" href="../Register/register.html" class="btn btn-warning btn-info">Sign-up</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <h1 class="text-center text-success mb-5">Danh Mục Sản Phẩm</h1>
+
+        <!-- Product Cards -->
+        <div class="row">
+            <div class="col-md-12 mb-4">
+                <div class="product-card">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="robot.jpg" alt="Robot nông nghiệp thông minh">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5>Robot nông nghiệp thông minh</h5>
+                                <p>Nhận diện và phân loại: Với AI, robot có thể nhận diện chính xác từng loại cây trồng, phân biệt cây khỏe mạnh và cây bị bệnh, thậm chí còn xác định được giống cây trồng. Qua thời gian, robot có thể tự học hỏi và thích ứng với các điều kiện môi trường khác nhau, tối ưu hóa quá trình làm việc. Bên cạnh đó nông dân có thể điều khiển và giám sát robot từ xa qua điện thoại di động hoặc máy tính.</p>
+                                <a href="#" class="btn">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mb-4">
+                <div class="product-card">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="greenhouse.jpg" alt="Hệ thống nhà kính">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5>Hệ thống nhà kính thông minh</h5>
+                                <p>Dự báo và điều chỉnh:Có thể dự báo được thời tiết, sâu bệnh và các yếu tố ảnh hưởng đến cây trồng, từ đó điều chỉnh hệ thống tưới tiêu, chiếu sáng, thông gió một cách tự động. IoT thu thập dữ liệu về nhiệt độ, độ ẩm, ánh sáng,... trong nhà kính, AI sẽ phân tích dữ liệu này để đưa ra những quyết định tối ưu nhất. Ngoài ra hệ thống có thể tự động điều chỉnh để sử dụng năng lượng hiệu quả nhất, giảm chi phí sản xuất.</p>
+                                <a href="#" class="btn">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 mb-4">
+                <div class="product-card">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="drone.jpg" alt="Drone nông nghiệp">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5>Máy bay phun thuốc không người lái thông minh</h5>
+                                <p>Máy bay có thể xác định chính xác vị trí cần phun thuốc, tránh lãng phí và bảo vệ môi trường, thu thập dữ liệu về tình hình cây trồng, sâu bệnh, giúp nông dân phát hiện sớm các vấn đề và phân tích hình ảnh thu được từ máy bay để đánh giá sức khỏe của cây trồng, phát hiện các dấu hiệu bất thường.
+                                </p>
+                                <a href="#" class="btn">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="view-more-btn">Xem thêm các sản phẩm khác</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid text-center bg-dark text-white py-4">
+        <div class="row align-items-center">
+            <div class="col-4">
+                <h5 class="text-warning"><img src="../logo.svg" alt="" class="pe-2">TechFarm</h5>
+                <p class="fw-semibold">Giải pháp nông nghiệp hiện đại</p>
+            </div>
+            <div class="col-4">
+                <p><i class="bi bi-geo-alt"></i> <span class="fw-bold">Địa chỉ:</span> Đường Hàn Thuyên, khu phố 6 P, Thủ Đức, Hồ Chí Minh</p>
+                <p><i class="bi bi-telephone"></i> <span class="fw-bold">SĐT:</span> 0888450986</p>
+                <p><i class="bi bi-envelope"></i> <span class="fw-bold">Email:</span> 22521157@gm.uit.edu.vn</p>
+            </div>
+            <div class="col-4">
+                <h5 class="text-warning">Về chúng tôi:</h5>
+                <div class="row ms-5">
+                    <div class="col-6 text-md-start">
+                        <p><a href="" class="text-decoration-none text-white">Home</a></p>
+                        <p><a href="" class="text-decoration-none text-white">About us</a></p>
+                        <p><a href="" class="text-decoration-none text-white">Product</a></p>
+                        <p><a href="" class="text-decoration-none text-white">Price</a></p>
+                    </div>
+                    <div class="col-6 text-md-start">
+                        <p><a href="" class="text-decoration-none text-white">Contact us</a></p>
+                        <p><a href="" class="text-decoration-none text-white">News</a></p>
+                        <p><a href="" class="text-decoration-none text-white">Career</a></p>
+                    </div>
+                </div>
+                <p><a href="" class="text-decoration-none text-white">Điều khoản dịch vụ</a></p>
+                <p><a href="" class="text-decoration-none text-white">Chính sách bảo mật</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
