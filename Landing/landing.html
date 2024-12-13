@@ -44,48 +44,55 @@
           <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
               <a href="./landing.html"
-                class="nav-link active fs-4 me-3">
-                Home
+                class="nav-link active fs-6 me-3">
+                Trang chủ
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a href="../News/news.html"
+                class="nav-link fs-6 me-3">
+                Tin tức
               </a>
             </li>
             <li class="nav-item active">
               <a href="../AboutUs/aboutus.html"
-                class="nav-link fs-4 me-3">
-                About us
+                class="nav-link fs-6 me-3">
+                Về chúng tôi
               </a>
             </li>
             <li class="nav-item active">
               <a href="../Product/product.html"
-                class="nav-link fs-4 me-3">
-                Product
+                class="nav-link fs-6 me-3">
+                Sản phẩm
               </a>
             </li>
             <li class="nav-item active">
               <a href="#"
-                class="nav-link fs-4 me-3">
-                Price
+                class="nav-link fs-6 me-3">
+                Giá
               </a>
             </li>
             <li class="nav-item active">
-              <a href="#"
-                class="nav-link fs-4 me-3">
-                Contact us
+              <a href="../ContactUs/contactus.html"
+                class="nav-link fs-6 me-3">
+                Liên hệ
               </a>
             </li>
             <li class="nav-item active">
               <a href="../Career/career.html"
-                class="nav-link fs-4 me-3">
-                Career
+                class="nav-link fs-6 me-3">
+                Việc làm 
               </a>
             </li>
           </ul>
-          <div class="text-end">
+          <div class="text-end"
+            id="auth-buttons">
             <a type="button"
               href="../Login/login.html"
-              class="btn btn-warning btn-info me-1">Login</a>
+              class="btn btn-warning btn-info me-1 fw-semibold">Đăng nhập</a>
             <a type="button"
               href="../Register/register.html"
-              class="btn btn-warning btn-info">Sign-up</a>
+              class="btn btn-warning btn-info fw-semibold">Đăng ký</a>
           </div>
         </div>
       </div>
@@ -93,21 +100,20 @@
   </header>
 
   <!-- HERO -->
-  <div class="container p-4 my-3 rounded-3 text-warning text-center hero"
+  <div class="container p-5 my-3 rounded-3 text-warning text-center hero"
     style="height: 300px;">
-    <h1 class="display-5 fw-bold mt-4">TechFarm</h1>
-    <h2 class="fw-bold">Tự hào là nền tảng nông nghiệp thông minh đi đầu Việt Nam</h2>
-    <button class="btn btn-success btn-lg">Xem thêm</button>
+    <h1 class="display-5 fw-bold mt-4 text-uppercase shadow" style="text-shadow: 0 0 15px white, 0 0 20px black;" >TechFarm</h1>
+    <h2 class="fw-bold" style="text-shadow: 0 0 15px white, 0 0 20px black;">Tự hào là nền tảng nông nghiệp thông minh đi đầu Việt Nam</h2>
   </div>
 
   <!-- GIỚI THIỆU GIẢI PHÁP -->
-  <div class="container my-5">
+  <div class="container-fluid p-5 giaiphap-section">
     <h3 class="text-center fw-bold">CUNG CẤP GIẢI PHÁP HIỆN ĐẠI</h3>
     <p class="text-center mb-4">TechFarm tự hào là đơn vị đi đầu về giải pháp Nông nghiệp thông minh tại Việt Nam, với
       hơn 1.000 nông dân và HTX trên toàn quốc và triển khai được 4 quốc gia khác ngoài Việt Nam. Hệ sinh thái tập trung
       nền tảng công nghệ Internet vạn vật (IoT) và Trí tuệ nhân tạo (AI) trong các lĩnh vực:</p>
     <div class="row">
-      <div class="col-sm-3 mb-3">
+      <div class="col-sm-3">
         <div class="card shadow rounded card-giaiphap">
           <div class="card-body text-center">
             <img src="./images/GiaiPhap/trongtrot.jpg"
@@ -119,7 +125,8 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-3 mb-3">
+
+      <div class="col-sm-3">
         <div class="card shadow rounded card-giaiphap">
           <div class="card-body text-center">
             <img src="./images/GiaiPhap/channuoi.jpg"
@@ -131,7 +138,8 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-3 mb-3">
+
+      <div class="col-sm-3">
         <div class="card shadow rounded card-giaiphap">
           <div class="card-body text-center">
             <img src="./images/GiaiPhap/thuyhaisan.jpg"
@@ -143,7 +151,8 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-3 mb-3">
+
+      <div class="col-sm-3">
         <div class="card shadow rounded card-giaiphap">
           <div class="card-body text-center">
             <img src="./images/GiaiPhap/nextAI.jpg"
@@ -159,15 +168,15 @@
   </div>
 
   <!-- QUẢNG CÁO -->
-  <div class="container-fluid p-3 my-5"
+  <div class="container-fluid p-3 my-0"
     style="background-color: #d3ee98;">
-    <div class="row justify-content-center py-3">
-      <div class="col-md-3">
+    <div class="row justify-content-around py-3">
+      <div class="col-md-5">
         <img src="./images/NextX.jpg"
           alt="nextAI-image"
           class="w-100">
       </div>
-      <div class="col-md-5">
+      <div class="col-md-7">
         <h5 class="text-white text-uppercase">tech farm - nền tảng hệ sinh thái nông nghiệp thông minh đi đầu tại việt
           Nam</h5>
         <h3 class="fw-bold">Được tin dùng bởi hơn 1000 nông dân và Hợp tác xã</h3>
@@ -181,7 +190,7 @@
   </div>
 
   <!-- SẢN PHẨM -->
-  <div class="container-fluid my-5">
+  <div class="container-fluid my-5 sanpham-section">
     <h3 class="text-center my-3 fw-bold">CÁC GIẢI PHÁP</h3>
     <h6 class="text-center">Tất cả ứng dụng đều được tích hợp toàn diện với nhau, dễ dàng sử dụng trên trình duyệt và
       thiết bị
@@ -195,10 +204,8 @@
             <h6 class="card-subtitle">Giải pháp Internet vạn vật</h6>
           </div>
           <div class="card-body">
-
           </div>
           <div class="card-footer">
-
           </div>
         </div>
       </div>
@@ -357,7 +364,7 @@
         <h5 class="text-warning"><img src="../logo.svg"
             alt=""
             class="pe-2">TechFarm</h5>
-        <p class="fw-semibold text-warning">Giải pháp nông nghiệp hiện đại</p>
+        <p class="fw-semibold text-warning text-uppercase">Giải pháp nông nghiệp hiện đại</p>
       </div>
 
       <div class="col-md-4">
@@ -368,34 +375,34 @@
       </div>
 
       <div class="col-md-4">
-        <h5 class="text-warning">Về chúng tôi</h5>
+        <h5 class="text-warning text-uppercase">Liên kết</h5>
         <div class="row">
           <div class="col-md-6">
             <p>
               <a href=""
-                class="text-decoration-none text-white">Home</a>
+                class="text-decoration-none text-white">Trang chủ</a>
             </p>
             <p>
               <a href="../AboutUs/aboutus.html"
-                class="text-decoration-none text-white">About us</a>
+                class="text-decoration-none text-white">Về chúng tôi</a>
             </p>
             <p>
               <a href="../Product/product.html"
-                class="text-decoration-none text-white">Product</a>
+                class="text-decoration-none text-white">Sản phẩm</a>
             </p>
             <p>
               <a href="#"
-                class="text-decoration-none text-white">Price</a>
+                class="text-decoration-none text-white">Giá</a>
             </p>
           </div>
           <div class="col-md-6">
             <p>
-              <a href=""
-                class="text-decoration-none text-white ">Contact us</a>
+              <a href="../ContactUs/contactus.html"
+                class="text-decoration-none text-white ">Liên hệ</a>
             </p>
             <p>
               <a href="../News/news.html"
-                class="text-decoration-none text-white">News</a>
+                class="text-decoration-none text-white">Tin tức</a>
             </p>
             <p>
               <a href="../Career/career.html"
@@ -418,6 +425,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- CUSTOM SCRIPT -->
+  <script src="./landing.js"></script>
 
 </body>
 

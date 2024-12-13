@@ -1,30 +1,31 @@
-
-import{user} from '../user.js';
+import { user } from '../user.js';
+import { services } from '../services.js';
 
 $(document).ready(function () {
     $('#userName').text(user.name);
     $('#userEmail').text(user.email);
     $('#userPassword').text(user.password);
-    $('#subscriptionTime').text(user.subscriptionTime);
 
     const servicesList = $('#servicesList');
     servicesList.empty();
-    user.services.forEach(service => {
-        servicesList.append(`<li class="list-group-item">${service}</li>`);
+    user.services.forEach(serviceName => {
+        const service = services.find(s => s.name === serviceName);
+        if (service) {
+            servicesList.append(`<li class="list-group-item">${service.name} - ${service.time}</li>`);
+        }
     });
 
     $('#changePasswordBtn').click(function () {
-        // Handle change password logic here
-        alert('Change password functionality to be implemented.');
+        alert('Chức năng sẽ sớm được cập nhật.');
     });
 
     $('#logoutBtn').click(function () {
-        // Handle log out logic here
-        alert('Log out functionality to be implemented.');
+        localStorage.removeItem('user');
+        localStorage.removeItem('avatar');
+        window.location.href = '../Login/login.html';
     });
 
     $('#deleteAccountBtn').click(function () {
-        // Handle delete account logic here
-        alert('Delete account functionality to be implemented.');
+        alert('Chức năng sẽ sớm được cập nhật.');
     });
 });

@@ -27,3 +27,11 @@ h3 {
 .card-giaiphap{
   background-color: #f8f9f4;
 }
+
+.sanpham-section{
+	background-image: linear-gradient(to bottom, white, lightgreen);
+}
+
+.giaiphap-section{
+	background-image: linear-gradient(to bottom, white, lightgreen);
+}
