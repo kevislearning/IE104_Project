@@ -1,125 +1,182 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechFarm - Giải pháp nông nghiệp</title>
+    <title>Danh Mục Sản Phẩm</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style_product.css">
 </head>
+</head>
 <body>
     <!-- Header -->
-    <header class="bg py-3">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <!-- Logo -->
-                <a class="navbar-brand m-0 text-success" href="#">TechFarm</a>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-3">
+            <div class="container-fluid">
+                <a href="#"
+                    class="navbar-brand ms-2 fw-bold text-warning">
+                    <img src="../logo.svg" alt="">
+                    TechFarm
+                </a>
     
-                <!-- Toggle Button for Mobile -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbar-Nav"
+                    class="navbar-toggler">
                     <span class="navbar-toggler-icon"></span>
                 </button>
     
-                <!-- Navigation Menu -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a href="#" class="nav-link">Trang chủ</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Tin tức</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Sản phẩm</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Giá</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Liên hệ</a></li>
+                <div class="collapse navbar-collapse" id="navbar-Nav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active"><a href="#" class="nav-link active">Home</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">About us</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">Product</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">Price</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">Contact us</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">Career</a></li>
                     </ul>
-                    <!-- Buttons -->
-                    <div class="d-flex">
-                        <button class="btn btn-outline-success me-2">Đăng ký ngay</button>
-                        <button class="btn btn-success">Đăng nhập</button>
+                    <div class="text-end">
+                        <a type="button" href="../Login/login.html" class="btn btn-success btn-info me-1">Login</a>
+                        <a type="button" href="../Register/register.html" class="btn btn-warning btn-info">Sign-up</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    
 
-    <!-- Main Section -->
-    <section class="bg-white text-success py-5 text-center">
-        <h2 class="fw-bold">DANH MỤC SẢN PHẨM</h2>
-    </section>
-
-    <section class="bg-success text-white py-5 text-center">
-        <h2 class="fw-bold">GIẢI PHÁP TRỒNG NÔNG SẢN</h2>
-        <p><em>"Lựa chọn giải pháp nông sản phù hợp với nhu cầu của bạn"</em></p>
-    </section>
-
-    <!-- Product Cards -->
-    <section class="container py-5">
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body text-center">
-                        <div class="bg-dark text-white rounded-circle d-flex justify-content-center align-items-center" style="height: 100px; width: 100px; margin: 0 auto;"> </div>
-                        <h5 class="card-title mt-3">Dịch vụ</h5>
-                        <p class="card-text">Tư vấn - Thiết kế - Thi công vùng trồng Sầu riêng</p>
-                        <a href="#" class="btn btn-link">See More &gt;</a>
+    <!-- Main Content -->
+    <div class="heading">
+        <div class="cover-img">
+            <div class="box-text">
+                <div class="title text-center">
+                    <h1>SẢN PHẨM</h1>
+                    <p>Liên hệ ngay để nhận được thông tin chi tiết, mẫu thử và giải đáp các thắc mắc của bạn</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-3">
+        <!-- Product Cards -->
+         <h2>Sản phẩm</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="product-card">
+                    <div class="col">
+                        <div class="row">
+                            <img src="image/istockphoto-1382273499-170667a.jpg" alt="Robot nông nghiệp thông minh">
+                        </div>
+                        <div class="row">
+                            <div class="card-body">
+                                <h5>Robot nông nghiệp thông minh</h5>
+                                <p>Nhận diện và phân loại: Với AI, robot có thể nhận diện chính xác từng loại cây trồng, phân biệt cây khỏe mạnh và cây bị bệnh, thậm chí còn xác định được giống cây trồng. Qua thời gian, robot có thể tự học hỏi và thích ứng với các điều kiện môi trường khác nhau, tối ưu hóa quá trình làm việc. Bên cạnh đó nông dân có thể điều khiển và giám sát robot từ xa qua điện thoại di động hoặc máy tính.</p>
+                                <a href="#" class="btn">Báo giá</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body text-center">
-                        <div class="bg-dark text-white rounded-circle d-flex justify-content-center align-items-center" style="height: 100px; width: 100px; margin: 0 auto;"> </div>
-                        <h5 class="card-title mt-3">Giải pháp</h5>
-                        <p class="card-text">Hợp tác Quản lí, Chăm sóc và Bao tiêu vườn Sầu riêng</p>
-                        <a href="#" class="btn btn-link">See More &gt;</a>
+            <div class="col-md-4 mb-4">
+                <div class="product-card">
+                    <div class="col">
+                        <div class="row">
+                            <img src="image/he-thong-tuoi-3.jpg" alt="Hệ thống nhà kính">
+                        </div>
+                        <div class="row">
+                            <div class="card-body">
+                                <h5>Hệ thống tưới nước thông minh</h5>
+                                <p>Dự báo và điều chỉnh:Có thể dự báo được thời tiết, sâu bệnh và các yếu tố ảnh hưởng đến cây trồng, từ đó điều chỉnh hệ thống tưới tiêu, chiếu sáng, thông gió một cách tự động. IoT thu thập dữ liệu về nhiệt độ, độ ẩm, ánh sáng,... trong nhà kính, AI sẽ phân tích dữ liệu này để đưa ra những quyết định tối ưu nhất. Ngoài ra hệ thống có thể tự động điều chỉnh để sử dụng năng lượng hiệu quả nhất, giảm chi phí sản xuất.</p>
+                                <a href="#" class="btn">Báo giá</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body text-center">
-                        <div class="bg-dark text-white rounded-circle d-flex justify-content-center align-items-center" style="height: 100px; width: 100px; margin: 0 auto;"> </div>
-                        <h5 class="card-title mt-3">Giải pháp</h5>
-                        <p class="card-text">Giải pháp trồng và chăm sóc Đông trùng hạ thảo</p>
-                        <a href="#" class="btn btn-link">See More &gt;</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body text-center">
-                        <div class="bg-dark text-white rounded-circle d-flex justify-content-center align-items-center" style="height: 100px; width: 100px; margin: 0 auto;"> </div>
-                        <h5 class="card-title mt-3">Giải pháp</h5>
-                        <p class="card-text">Quản lí vận hành đa nhiệm, đảm bảo sản lượng và chất lượng</p>
-                        <a href="#" class="btn btn-link">See More &gt;</a>
+
+            <div class="col-md-4 mb-4">
+                <div class="product-card">
+                    <div class="col">
+                        <div class="row">
+                            <img src="image/RPDJI-Agras-MG-1P-Banner-Offical-600.jpg" alt="Drone nông nghiệp">
+                        </div>
+                        <div class="row">
+                            <div class="card-body">
+                                <h5>Máy bay phun thuốc không người lái thông minh</h5>
+                                <p>Máy bay có thể xác định chính xác vị trí cần phun thuốc, tránh lãng phí và bảo vệ môi trường, thu thập dữ liệu về tình hình cây trồng, sâu bệnh, giúp nông dân phát hiện sớm các vấn đề và phân tích hình ảnh thu được từ máy bay để đánh giá sức khỏe của cây trồng, phát hiện các dấu hiệu bất thường.
+                                </p>
+                                <a href="#" class="btn">Báo giá</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="dichvu">
+            <h2>Dịch vụ</h2>
+            <div class="row justify-content-center my-4">
+                <div class="col-sm-4">
+                    <h4>TraceGREEN</h4>
+                    <h5>Dịch vụ truy vết nguồn gốc sản phẩm</h5>
+                    <p>Khám phá hành trình của sản phẩm cùng traceGREEN. Truy xuất nguồn gốc, đảm bảo an toàn thực phẩm. Giải pháp truy xuất nguồn gốc nông sản hàng đầu, giúp người tiêu dùng yên tâm về chất lượng và nguồn gốc sản phẩm. Chỉ cần quét mã QR, bạn sẽ biết được hành trình của sản phẩm từ trang trại đến bàn ăn.</p>
+                    <button type="button" class="btn btn-success">Báo giá</button>
+                </div>
+                <div class="col-sm-4">
+                    <img src="image/Aq2k_truy-xuat.jpg"
+                </div>
+            </div>
+            <div class="row justify-content-center my-4">
+                <div class="col-sm-4">
+                    <img src="image/he-thong-tuoi-cay-hen-gio-thong-minh.jpg">
+                </div>
+                <div class="col-sm-4">
+                    <h4>iOT-GREEN</h4>
+                    <h5>Quản lí hệ thống iOT cho nông nghiệp</h5>
+                    <p>Hệ thống của chúng tôi giúp bạn quản lý toàn diện các hoạt động nông nghiệp, từ tưới tiêu tự động đến giám sát sức khỏe cây trồng. Với các cảm biến hiện đại, bạn có thể theo dõi nhiệt độ, độ ẩm, ánh sáng và nhiều yếu tố khác ảnh hưởng đến cây trồng. Dễ dàng sử dụng, hiệu quả cao, giúp bạn tiết kiệm thời gian và tăng lợi nhuận.</p>
+                    <button type="button" class="btn btn-success">Báo giá</button>
+                </div>
+            </div>
+            <div class="row justify-content-center my-4">
+                <div class="col-sm-4">
+                    <h4>BrainGREEN</h4>
+                    <h5>Hệ thống AI thông minh phân tích, dự báo năng suất và thị trường</h5>
+                    <p>Hệ thống AI của chúng tôi cung cấp các giải pháp thông minh, giúp bạn tối ưu hóa quá trình sản xuất, dự báo chính xác năng suất và nắm bắt cơ hội thị trường. Từ phân tích đất, khí hậu đến dự báo sâu bệnh, AI sẽ là người bạn đồng hành tin cậy của bạn trên mọi cánh đồng.</p>
+                    <button type="button" class="btn btn-success">Báo giá</button>
+                </div>
+                <div class="col-sm-4">
+                    <img src="image/12-giai-phap-tuoi-nuoc-tu-dong-thong-minh.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
-    <footer class="bg py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h3 class="fw-bold">TechFarm</h3>
-                    <p>GIẢI PHÁP NÔNG NGHIỆP 5 SAO</p>
+    <footer class="container-fluid text-center bg-dark text-white py-4">
+        <div class="row align-items-center">
+            <div class="col-4">
+                <h5 class="text-warning"><img src="../logo.svg" alt="" class="pe-2">TechFarm</h5>
+                <p class="fw-semibold">Giải pháp nông nghiệp hiện đại</p>
+            </div>
+            <div class="col-4">
+                <p><i class="bi bi-geo-alt"></i> <span class="fw-bold">Địa chỉ:</span> Đường Hàn Thuyên, khu phố 6 P, Thủ Đức, Hồ Chí Minh</p>
+                <p><i class="bi bi-telephone"></i> <span class="fw-bold">SĐT:</span> 0888450986</p>
+                <p><i class="bi bi-envelope"></i> <span class="fw-bold">Email:</span> 22521157@gm.uit.edu.vn</p>
+            </div>
+            <div class="col-4">
+                <h5 class="text-warning">Về chúng tôi:</h5>
+                <div class="row ms-5">
+                    <div class="col-6 text-md-start">
+                        <p><a href="" class="text-decoration-none text-white">Home</a></p>
+                        <p><a href="" class="text-decoration-none text-white">About us</a></p>
+                        <p><a href="" class="text-decoration-none text-white">Product</a></p>
+                        <p><a href="" class="text-decoration-none text-white">Price</a></p>
+                    </div>
+                    <div class="col-6 text-md-start">
+                        <p><a href="" class="text-decoration-none text-white">Contact us</a></p>
+                        <p><a href="" class="text-decoration-none text-white">News</a></p>
+                        <p><a href="" class="text-decoration-none text-white">Career</a></p>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <h5>Thông tin liên hệ</h5>
-                    <p>Địa chỉ: Số 100, Tòa nhà A, Đường B, Quận C, Tỉnh D</p>
-                    <p>SDT: 0123456789</p>
-                    <p>Email: giaiphapgreen@gmail.com</p>
-                </div>
-                <div class="col-md-3">
-                    <h5>Về chúng tôi</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-dark">Home</a></li>
-                        <li><a href="#" class="text-dark">News</a></li>
-                        <li><a href="#" class="text-dark">Product</a></li>
-                        <li><a href="#" class="text-dark">Price</a></li>
-                        <li><a href="#" class="text-dark">Contact us</a></li>
-                    </ul>
-                </div>
+                <p><a href="" class="text-decoration-none text-white">Điều khoản dịch vụ</a></p>
+                <p><a href="" class="text-decoration-none text-white">Chính sách bảo mật</a></p>
             </div>
         </div>
     </footer>
@@ -127,4 +184,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
